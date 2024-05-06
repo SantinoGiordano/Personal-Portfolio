@@ -1,0 +1,119 @@
+header{
+    text-align: center;
+    background:repeating-linear-gradient(purple, red);
+    color: azure;
+    padding: 9%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    /*position: fixed;*/
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  .active {
+    background-color: black;
+  }
+
+  li a:hover {
+    background-color:black;
+    box-shadow: 0 0 35px;
+  }
+
+
+.parallax {
+    /* The image used */
+    background-image: url("nytBlackAndWhite.png");
+  
+    /* Set a specific height */
+    min-height:450px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ .parallax2{
+    /* The image used */
+    background-image: url("maskFear.png");
+  
+    /* Set a specific height */
+    min-height:450px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+section{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+  .flexText{
+    margin:auto;
+    width: 40%;
+    margin-top: 0%;
+  }
+
+  .flexImgs{
+    margin:auto;
+    width:33%
+  }
+
+  .subHeader{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #description{
+    text-align: center;
+    text-align: justify;
+    padding: 20%;
+  }
+#colorBg{
+  background:repeating-linear-gradient(white, purple, red)
+}
+
+footer{
+  background:repeating-linear-gradient(red, purple);
+  padding: 3%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:aliceblue
+}
+
+#nyt{
+   max-width: 50%;
+   max-height: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+h4{
+  text-align: center;
+}
+
