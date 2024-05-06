@@ -2,7 +2,7 @@ header{
     text-align: center;
     background:repeating-linear-gradient(purple, red);
     color: azure;
-    padding: 9%;
+    padding: 7%;
 }
 
 ul {
@@ -38,7 +38,7 @@ ul {
 
 .parallax {
     /* The image used */
-    background-image: url("nytBlackAndWhite.png");
+    background-image: url("Scroll\ background.jpg");
   
     /* Set a specific height */
     min-height:450px;
