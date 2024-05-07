@@ -90,7 +90,10 @@ section{
   #description{
     text-align: center;
     text-align: justify;
-    padding: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 #colorBg{
   background:repeating-linear-gradient(white, purple, red)
