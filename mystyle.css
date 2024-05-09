@@ -1,40 +1,10 @@
 header{
     text-align: center;
-    background:repeating-linear-gradient(purple, red);
+    background-color: black;
     color: azure;
     padding: 7%;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: purple;
-    /*position: fixed;*/
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
     
-  }
-  .active {
-    background-color: black;
-  }
-
-  li a:hover {
-    background-color:black;
-    box-shadow: 0 0 35px;
-  }
-
+}
 
 .parallax {
     /* The image used */
@@ -90,8 +60,8 @@ section{
   #description{
     text-align: center;
     text-align: justify;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-top: 2%;
     padding-bottom: 2%;
   }
@@ -100,11 +70,11 @@ section{
 }
 
 footer{
-  background:repeating-linear-gradient(red, purple);
-  padding: 3%;
+  background-color: black;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:aliceblue
+  color:aliceblue;
+  padding:1%
 }
 
 #nyt{
@@ -120,3 +90,11 @@ h4{
   text-align: center;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+
+}
+body{
+  margin:0;
+}
